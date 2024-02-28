@@ -10,8 +10,8 @@ class Book {
   render() {
     return `
           <div class="col-md-3">
-            <div class="card h-100">
-              <img src="${this.image}" class="card-img-top img-fluid">
+            <div class="card">
+              <img src="${this.image}" class="card-img-top ">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">${this.title}</h5>
                 <p class="card-text">${this.price}</p>
